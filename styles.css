@@ -1,0 +1,376 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+}
+
+
+/*------------------TOP------------------*/
+
+div.top-root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 780px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+div.top-model {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    background-color: #02160B;
+    background: url("assets/Hero_Background.png");
+}
+
+div.top-content {
+    width: 1200px;
+    background-color: rgba(255, 0, 255, 0.1);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 0, 0.15);
+    /*debug*/
+}
+
+div.logo {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 100%;
+    background-color: rgba(22, 111, 255, 0.15);
+}
+
+h1.logo {
+    color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+nav.top {
+    width: 480px;
+    height: 100%;
+    background-color: rgba(255, 0, 255, 0.3);
+}
+
+ul.nav-content {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+li.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li.nav-item.blog {
+    width: 50px;
+    background-color: rgba(200, 200, 255, 0.3);
+}
+
+li.nav-item.contacts {
+    width: 96px;
+    background-color: rgba(100, 100, 255, 0.3);
+}
+
+li.nav-item.search {
+    width: 32px;
+    background-color: rgba(200, 100, 155, 0.3);
+}
+
+li.nav-item.signIn {
+    width: 120px;
+
+    margin: 5px 0 5px 0;
+
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+a.nav-item {
+    display: flex;
+    color: #F7F7F7;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+}
+
+a.nav-item:hover {
+    color: orange;
+}
+
+section.survival {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 120px;
+    height: 340px;
+    background-color: rgba(50, 0, 255, 0.1);
+    /*debug*/
+}
+
+h1.survival {
+    margin: 0;
+
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 150%;
+    letter-spacing: 2px;
+
+    color: #CD6326;
+}
+
+p.survival {
+    width: 274px;
+
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 150%;
+
+    color: #F7F7F7;
+}
+
+div.survival-button {
+    display: flex;
+    width: 160px;
+    height: 60px;
+    background-color: #CD6326;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Roboto";
+    font-size: 23px;
+    color: #F7F7F7;
+}
+
+/*------------------------------------*/
+
+
+
+/*------------------MIDDLE------------------*/
+
+div.middle-root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1370px;
+    background-color: rgba(100, 50, 255, 0.15);
+}
+
+div.middle-model {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    background-color: #cccccc;
+}
+
+div.middle-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1200px;
+    background-color: rgba(255, 0, 255, 0.1);
+}
+
+/*------------------section.latestArticles------------------*/
+
+section.latestArticles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 120px;
+    width: 100%;
+    min-height: 610px;
+    background-color: rgba(25, 255, 255, 0.2);
+}
+
+h2.latestArticles {
+    margin: 0;
+
+    font-weight: normal;
+    font-family: "Open Sans";
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #333333;
+}
+
+p.motto {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #666666;
+}
+
+div.slider-container {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 110, 55, 0.2);
+}
+
+div.slider-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 360px;
+    background-color: rgba(22, 110, 55, 0.2);
+}
+
+div.slider-leftArrow {
+    width: 30px;
+    height: 70px;
+    background-color: rgba(250, 0, 0, 0.2);
+}
+
+div.slider-rightArrow {
+    width: 30px;
+    height: 70px;
+    background-color: rgba(250, 0, 0, 0.2);
+}
+
+div.slider-item {
+    width: 300px;
+    height: 100%;
+    background-color: rgba(207, 211, 6, 0.2);
+}
+
+/*------------------------------------*/
+
+
+/*------------------section.getNofified------------------*/
+
+section.getNofified {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 155, 255, 0.4);
+}
+
+h3.getNofified {
+    margin: 0 0 60px 0;
+
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 150%;
+
+    color: #333333;
+}
+
+
+div.input-container {
+    display: flex;
+    width: 660px;
+    height: 60px;
+    background-color: rgba(150, 155, 255, 0.7);
+}
+
+div.input-field {
+    display: flex;
+    width: 540px;
+    height: 100%;
+    background-color: rgba(54, 228, 205, 0.7);
+}
+
+div.input-button {
+    display: flex;
+    width: 120px;
+    height: 100%;
+    background-color: rgba(255, 132, 16, 0.7);
+}
+
+input.field {
+    width: 100%;
+    height: 100%;
+}
+
+input.button {
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------------------*/
+
+
+
+/*------------------BOTTOM------------------*/
+
+
+div.bottom-root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 360px;
+    background-color: rgba(100, 50, 255, 0.15);
+}
+
+div.bottom-model {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    background-color: #181617;
+}
+
+footer {
+    display: flex;
+    width: 1200px;
+    background-color: rgba(255, 0, 255, 0.1);
+}
+
+nav.bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 218, 36, 0.2);
+}
+
+div.nav-links {
+    margin-left: 140px;
+    width: 480px;
+    height: 100%;
+    background-color: rgba(218, 33, 0, 0.2);
+}
+
+div.nav-socials {
+    width: 240px;
+    height: 100%;
+    background-color: rgba(0, 58, 218, 0.2);
+}
+
+/*------------------------------------*/
