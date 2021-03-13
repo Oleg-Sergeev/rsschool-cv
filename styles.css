@@ -106,12 +106,11 @@ a.nav-item {
     font-family: 'Open Sans', sans-serif;
     font-size: 23px;
 }
-
 a.nav-item:hover {
     color: #E39128;
     transform: scale(1.1);
+    transition-duration: 0.25s;
 }
-
 a.nav-item:active {
     color: #8F5613;
 }
@@ -167,12 +166,14 @@ div.survival-button {
 /*------------------------------------*/
 
 
-div.survival-button:hover, input.button:hover {
+div.survival-button:hover,
+input.button:hover {
     background-color: #E39128;
     cursor: pointer;
 }
 
-div.survival-button:active, input.button:active {
+div.survival-button:active,
+input.button:active {
     background-color: #8F5613;
 }
 
@@ -365,6 +366,7 @@ input.field {
 
     outline: none;
 }
+
 input.field:focus {
     border: 2px solid #222;
 }
@@ -391,6 +393,10 @@ input.button {
 
     color: #F7F7F7;
     outline: none;
+}
+
+form.email-input {
+    display: contents;
 }
 
 /*------------------------------------*/
@@ -444,4 +450,5 @@ div.nav-socials {
 
 #hoverable:hover {
     transform: scale(1.1);
+    transition-duration: 0.25s;
 }
