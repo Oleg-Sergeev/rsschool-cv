@@ -98,6 +98,13 @@ li.nav-item.signIn {
     box-sizing: border-box;
     border-radius: 5px;
 }
+li.nav-item.signIn:hover {
+    background-color: #CD6326;;
+}
+li.nav-item.signIn:active {
+    background-color: #8F5613;;
+    border-color: #8F5613;
+}
 
 a.nav-item {
     display: flex;
@@ -109,11 +116,21 @@ a.nav-item {
 a.nav-item:hover {
     color: #E39128;
     transform: scale(1.1);
-    transition-duration: 0.25s;
+    transition-duration: 0.2s;
 }
 a.nav-item:active {
     color: #8F5613;
 }
+
+a.nav-item.signIn:hover {
+    transform: scale(1);
+    color: #F7F7F7;
+}
+a.nav-item.signIn:active {
+    color: #F7F7F7;
+}
+
+
 
 section.survival {
     display: flex;
@@ -448,7 +465,10 @@ div.nav-socials {
 /*------------------------------------*/
 
 
-#hoverable:hover {
+#interactive:hover {
     transform: scale(1.1);
     transition-duration: 0.25s;
+}
+#interactive:active {
+    transform: scale(1);
 }
