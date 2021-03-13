@@ -7,7 +7,8 @@ body {
 html {
     width: 100%;
     height: 100%;
-    background-color: #222;
+
+    background-color: #111;
 }
 
 
@@ -24,6 +25,7 @@ div.top-model {
     display: flex;
     justify-content: center;
     width: 1440px;
+
     background-color: #02160B;
     background: url("assets/Hero_Background.png");
 }
@@ -106,7 +108,12 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-    color: orange;
+    color: #E39128;
+    transform: scale(1.1);
+}
+
+a.nav-item:active {
+    color: #8F5613;
 }
 
 section.survival {
@@ -156,9 +163,18 @@ div.survival-button {
     border-radius: 5px;
 }
 
+
 /*------------------------------------*/
 
 
+div.survival-button:hover, input.button:hover {
+    background-color: #E39128;
+    cursor: pointer;
+}
+
+div.survival-button:active, input.button:active {
+    background-color: #8F5613;
+}
 
 /*------------------MIDDLE------------------*/
 
@@ -173,6 +189,7 @@ div.middle-model {
     display: flex;
     justify-content: center;
     width: 1440px;
+
     background-color: #cccccc;
 }
 
@@ -244,6 +261,7 @@ div.slider-rightArrow {
     height: 70px;
 }
 
+
 div.slider-item {
     width: 300px;
     height: 100%;
@@ -254,7 +272,7 @@ div.slider-description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -347,6 +365,13 @@ input.field {
 
     outline: none;
 }
+input.field:focus {
+    border: 2px solid #222;
+}
+
+img.socials:hover {
+    transform: scale(1.1);
+}
 
 input.button {
     margin: 0;
@@ -386,8 +411,9 @@ div.bottom-model {
     display: flex;
     justify-content: center;
     width: 1440px;
-    background-color: #181617;
+
     background-image: url("assets/Footer.jpg");
+    background-color: #181617;
 }
 
 footer {
@@ -414,3 +440,8 @@ div.nav-socials {
 }
 
 /*------------------------------------*/
+
+
+#hoverable:hover {
+    transform: scale(1.1);
+}
